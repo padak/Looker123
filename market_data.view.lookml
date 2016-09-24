@@ -9,7 +9,7 @@
 
   - dimension_group: month
     type: time
-    timeframes: [date, week, month]
+    timeframes: [date, week, month, quarter, year]
     convert_tz: false
     sql: ${TABLE}.MONTH
 
