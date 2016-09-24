@@ -18,7 +18,7 @@
     drill_fields: [id]
 
   - measure: czk
-    type: sum
+    type: number
     sql: ${TABLE}.CZK
 
   - measure: ltr
