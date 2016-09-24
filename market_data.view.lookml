@@ -18,7 +18,11 @@
     drill_fields: [id]
 
   - measure: czk
-    type: number
+    type: sum
+    sql: ${TABLE}.CZK
+  
+  - measure: czk_avg
+    type: avg
     sql: ${TABLE}.CZK
 
   - measure: ltr
